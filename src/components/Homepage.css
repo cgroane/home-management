@@ -1,0 +1,105 @@
+.background {
+  background-color: #afd4c0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.homebutton {
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #8aea92;
+}
+#hp2 {
+  color: white;
+  background-color: #519872;
+}
+.whiteDash {
+  display: flex;
+  align-items: center;
+  width: 75vw;
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+.dashbutton {
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 60px;
+  width: 200px;
+  margin: 10px;
+  padding-top: 25px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #8aea92;
+}
+.border {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #519872;
+  justify-content: space-around;
+  width: 100vw;
+}
+.backgroundDash {
+  background-color: #afd4c0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  border: 1px solid black;
+  width: 70vw;
+}
+/* #listingWrap {
+  
+  justify-content: flex-start;
+} */
+h3 {
+  margin: 30px;
+}
+.logoutbutton {
+  color: white;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
